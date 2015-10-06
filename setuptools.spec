@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 18.3.2
-Release  : 38
+Release  : 39
 URL      : https://pypi.python.org/packages/source/s/setuptools/setuptools-18.3.2.tar.gz
 Source0  : https://pypi.python.org/packages/source/s/setuptools/setuptools-18.3.2.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Python-2.0 ZPL-2.0
 Requires: setuptools-bin
 Requires: setuptools-python
+BuildRequires : funcsigs-python
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : py
@@ -20,6 +21,8 @@ BuildRequires : python-dev
 BuildRequires : python-mock
 BuildRequires : python3-dev
 BuildRequires : setuptools
+BuildRequires : six
+BuildRequires : six-python
 BuildRequires : testrepository
 BuildRequires : testresources
 BuildRequires : testscenarios
