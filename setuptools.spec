@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 18.3.2
-Release  : 37
+Release  : 38
 URL      : https://pypi.python.org/packages/source/s/setuptools/setuptools-18.3.2.tar.gz
 Source0  : https://pypi.python.org/packages/source/s/setuptools/setuptools-18.3.2.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
