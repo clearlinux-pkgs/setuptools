@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 18.7
-Release  : 43
+Release  : 44
 URL      : https://pypi.python.org/packages/source/s/setuptools/setuptools-18.7.tar.gz
 Source0  : https://pypi.python.org/packages/source/s/setuptools/setuptools-18.7.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
