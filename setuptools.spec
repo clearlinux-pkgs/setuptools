@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 20.7.0
-Release  : 48
+Release  : 49
 URL      : https://pypi.python.org/packages/source/s/setuptools/setuptools-20.7.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/s/setuptools/setuptools-20.7.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
