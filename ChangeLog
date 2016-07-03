@@ -2,6 +2,23 @@
 CHANGES
 =======
 
+v24.0.0
+-------
+
+* Pull Request #174: Add more aggressive support for
+  Windows SDK in msvc9compiler patch.
+* Renamed ``setuptools.msvc9_support`` to
+  ``setuptools.msvc``.
+
+v23.2.1
+-------
+
+Re-release of v23.2.0, which was missing the intended
+commits.
+
+* #623: Remove used of deprecated 'U' flag when reading
+  manifests.
+
 v23.1.0
 -------
 
