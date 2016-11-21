@@ -2,6 +2,17 @@
 CHANGES
 =======
 
+v28.8.0
+-------
+
+* #629: Per the discussion, refine the sorting to use version
+  value order for more accurate detection of the latest
+  available version when scanning for packages. See also
+  #829.
+
+* #837: Rely on the config var "SO" for Python 3.3.0 only
+  when determining the ext filename.
+
 v28.7.1
 -------
 
