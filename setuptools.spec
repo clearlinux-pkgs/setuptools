@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 28.8.0
-Release  : 60
+Release  : 61
 URL      : http://pypi.debian.net/setuptools/setuptools-28.8.0.tar.gz
 Source0  : http://pypi.debian.net/setuptools/setuptools-28.8.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
