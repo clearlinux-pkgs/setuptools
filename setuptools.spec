@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 35.0.2
-Release  : 65
+Release  : 66
 URL      : https://pypi.debian.net/setuptools/setuptools-35.0.2.zip
 Source0  : https://pypi.debian.net/setuptools/setuptools-35.0.2.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
