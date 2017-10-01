@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 36.5.0
-Release  : 86
+Release  : 87
 URL      : https://pypi.debian.net/setuptools/setuptools-36.5.0.zip
 Source0  : https://pypi.debian.net/setuptools/setuptools-36.5.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -41,6 +41,14 @@ Group: Binaries
 bin components for the setuptools package.
 
 
+%package extras
+Summary: extras components for the setuptools package.
+Group: Default
+
+%description extras
+extras components for the setuptools package.
+
+
 %package legacypython
 Summary: legacypython components for the setuptools package.
 Group: Default
@@ -75,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1506868775
+export SOURCE_DATE_EPOCH=1506871083
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -85,7 +93,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 || :
 %install
-export SOURCE_DATE_EPOCH=1506868775
+export SOURCE_DATE_EPOCH=1506871083
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
@@ -98,9 +106,13 @@ echo ----[ mark ]----
 
 %files bin
 %defattr(-,root,root,-)
+%exclude /usr/bin/easy_install-2.7
 /usr/bin/easy_install
-/usr/bin/easy_install-2.7
 /usr/bin/easy_install-3.6
+
+%files extras
+%defattr(-,root,root,-)
+/usr/bin/easy_install-2.7
 
 %files legacypython
 %defattr(-,root,root,-)
