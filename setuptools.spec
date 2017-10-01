@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 36.5.0
-Release  : 84
+Release  : 85
 URL      : https://pypi.debian.net/setuptools/setuptools-36.5.0.zip
 Source0  : https://pypi.debian.net/setuptools/setuptools-36.5.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : MIT Python-2.0 ZPL-2.0
 Requires: setuptools-bin
 Requires: setuptools-legacypython
+Requires: setuptools-python3
 Requires: setuptools-python
 Requires: Sphinx
 Requires: certifi
@@ -53,9 +54,18 @@ legacypython components for the setuptools package.
 Summary: python components for the setuptools package.
 Group: Default
 Requires: setuptools-legacypython
+Requires: setuptools-python3
 
 %description python
 python components for the setuptools package.
+
+
+%package python3
+Summary: python3 components for the setuptools package.
+Group: Default
+
+%description python3
+python3 components for the setuptools package.
 
 
 %prep
@@ -66,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505494358
+export SOURCE_DATE_EPOCH=1506868054
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -76,7 +86,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 || :
 %install
-export SOURCE_DATE_EPOCH=1505494358
+export SOURCE_DATE_EPOCH=1506868054
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
@@ -98,5 +108,8 @@ echo ----[ mark ]----
 /usr/lib/python2*/*
 
 %files python
+%defattr(-,root,root,-)
+
+%files python3
 %defattr(-,root,root,-)
 /usr/lib/python3*/*
