@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 36.5.0
-Release  : 87
+Release  : 88
 URL      : https://pypi.debian.net/setuptools/setuptools-36.5.0.zip
 Source0  : https://pypi.debian.net/setuptools/setuptools-36.5.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -52,6 +52,7 @@ extras components for the setuptools package.
 %package legacypython
 Summary: legacypython components for the setuptools package.
 Group: Default
+Requires: python-core
 
 %description legacypython
 legacypython components for the setuptools package.
@@ -70,6 +71,7 @@ python components for the setuptools package.
 %package python3
 Summary: python3 components for the setuptools package.
 Group: Default
+Requires: python3-core
 
 %description python3
 python3 components for the setuptools package.
@@ -83,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1506871083
+export SOURCE_DATE_EPOCH=1507179204
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -93,7 +95,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 || :
 %install
-export SOURCE_DATE_EPOCH=1506871083
+export SOURCE_DATE_EPOCH=1507179204
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
