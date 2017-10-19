@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 36.6.0
-Release  : 89
+Release  : 90
 URL      : https://pypi.debian.net/setuptools/setuptools-36.6.0.zip
 Source0  : https://pypi.debian.net/setuptools/setuptools-36.6.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
