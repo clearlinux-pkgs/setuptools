@@ -31,6 +31,7 @@ SDL2_image
 SQLAlchemy
 SocksiPy-branch
 Sphinx
+Tempita
 Theano
 WALinuxAgent
 WSGIProxy2
@@ -131,6 +132,7 @@ edk2
 entrypoints
 enum34
 eog
+evince
 evolution
 execnet
 exo
@@ -286,6 +288,7 @@ libuser
 libvirt
 libvirt-glib
 libvirt-python
+libvpx
 libwebp
 libwnck
 libwnck3
@@ -500,6 +503,7 @@ vcversioner
 vinagre
 virt-viewer
 virtualenv
+vlc
 vte
 waitress
 wayland
