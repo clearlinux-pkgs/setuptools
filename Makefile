@@ -1,5 +1,5 @@
 PKG_NAME := setuptools
-URL = https://pypi.debian.net/setuptools/setuptools-36.7.2.zip
+URL = https://pypi.debian.net/setuptools/setuptools-37.0.0.zip
 
 
 include ../common/Makefile.common
