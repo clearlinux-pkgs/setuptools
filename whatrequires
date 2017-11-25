@@ -79,6 +79,8 @@ boto3
 botocore
 bz2file
 cairo
+catkin
+catkin_pkg
 ceph
 ceph-deploy
 certifi
@@ -129,6 +131,7 @@ double-conversion
 e2fsprogs
 ecdsa
 edk2
+empy
 entrypoints
 enum34
 eog
@@ -139,6 +142,7 @@ exo
 extras
 faba-icon-theme
 file
+file-roller
 filesystem
 fixtures
 flake8
@@ -274,6 +278,7 @@ libgusb
 libgweather
 libidn
 libjpeg-turbo
+libmediaart
 libnotify
 libosinfo
 libpeas
@@ -344,10 +349,12 @@ nodejs
 nose
 nose-parameterized
 notebook
+notmuch
 numactl
 numba
 numpy
 oauth2client
+offlineimap
 olefile
 opencv
 openvswitch
@@ -526,6 +533,8 @@ xorg-server
 xproto
 xtrans
 yasm
+yelp-tools
+yelp-xsl
 yum-metadata-parser
 zenity
 zstd
