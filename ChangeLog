@@ -1,3 +1,15 @@
+v38.2.1
+-------
+
+* #1212: fix encoding handling of metadata when installing
+  from a wheel.
+
+v38.2.0
+-------
+
+* #1200: easy_install now support installing from wheels:
+  they will be installed as standalone unzipped eggs.
+
 v38.1.0
 -------
 
