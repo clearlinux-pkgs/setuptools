@@ -495,6 +495,7 @@ simplejson
 six
 smart_open
 snowballstemmer
+sos
 sphinxcontrib-newsfeed
 sphinxcontrib-websupport
 spice
