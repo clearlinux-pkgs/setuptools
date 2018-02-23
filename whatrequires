@@ -19,7 +19,6 @@ OpenSP
 Paste
 PasteDeploy
 Pillow
-PyQt5
 PyWavelets
 PyYAML
 Pygments
@@ -84,10 +83,12 @@ bind-utils
 bkcharts
 bleach
 bokeh
+borgbackup
 boto
 boto3
 botocore
 bz2file
+cached-property
 cairo
 catkin
 catkin_pkg
@@ -99,6 +100,7 @@ cffi
 chardet
 cheese
 chrome-gnome-shell
+clamav
 click
 cloudpickle
 clr-boot-manager
@@ -136,6 +138,7 @@ dbus-glib
 dconf
 deap
 decorator
+defusedxml
 diffoscope
 dnf
 dnf-plugins-core
@@ -185,6 +188,7 @@ gensim
 geoclue
 geocode-glib
 gevent
+gexiv2
 ghostscript
 gimp
 git
@@ -256,10 +260,10 @@ ipywidgets
 irrlicht
 isa-l
 iso8601
+isodate
 isort
 ister
 itstool
-javapackages-tools
 jedi
 jedi-vim
 jmespath
@@ -296,6 +300,7 @@ libcanberra
 libcroco
 libcryptui
 libdnf
+libdrm
 libgdata
 libglade
 libgnome-keyring
@@ -305,6 +310,7 @@ libgudev
 libgusb
 libgweather
 libidn
+libinput
 libjpeg-turbo
 libjpeg-turbo-soname8
 libmediaart
@@ -340,6 +346,7 @@ linux-hyperv-lts
 linux-hyperv-mini
 linux-kvm
 linux-lts
+linux-pk414
 linux-tools
 llvm
 llvmlite
@@ -356,10 +363,12 @@ meson
 metacity
 mido
 mistune
+mkosi
 mod_wsgi
 moka-icon-theme
 mozjs
 mozjs38
+msgpack-python
 mutt
 mutter
 mypy
@@ -367,6 +376,7 @@ nasm
 nautilus
 nbconvert
 nbformat
+nbsphinx
 ndctl
 ndg_httpsclient
 neon
@@ -470,14 +480,15 @@ python-systemd
 python-tappy
 python-toml
 python-urwid
+python-zeep
 pytz
 pyudev
 pywbem
 pyxdg
 pyzmq
 qemu
-qt-everywhere-opensource-src
 qtconsole
+qtimageformats
 quilt
 recordproto
 redis
@@ -490,7 +501,6 @@ rsa
 s3transfer
 samba
 satyr
-scala
 scikit-build
 scikit-image
 scikit-learn
@@ -510,12 +520,12 @@ six
 smart_open
 snowballstemmer
 sos
+sphinx_rtd_theme
 sphinxcontrib-newsfeed
 sphinxcontrib-websupport
 spice
 spice-gtk
 spice-protocol
-spyder
 spyder-notebook
 sqlparse
 sshfs
@@ -537,6 +547,7 @@ testtools
 tflearn
 tiff
 tigervnc
+toolbelt
 tornado
 totem
 totem-pl-parser
