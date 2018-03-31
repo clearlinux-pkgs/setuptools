@@ -1,5 +1,5 @@
 PKG_NAME := setuptools
-URL = https://pypi.python.org/packages/6c/54/f7e9cea6897636a04e74c3954f0d8335cc38f7d01e27eec98026b049a300/setuptools-38.5.1.zip
+URL = https://pypi.python.org/packages/72/c2/c09362ab29338413ab687b47dab03bab4a792e2bbb727a1eb5e0a88e3b86/setuptools-39.0.1.zip
 ARCHIVES = 
 
 include ../common/Makefile.common
