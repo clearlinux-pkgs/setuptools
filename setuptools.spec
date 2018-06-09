@@ -4,14 +4,13 @@
 #
 Name     : setuptools
 Version  : 39.0.1
-Release  : 110
+Release  : 111
 URL      : https://pypi.python.org/packages/72/c2/c09362ab29338413ab687b47dab03bab4a792e2bbb727a1eb5e0a88e3b86/setuptools-39.0.1.zip
 Source0  : https://pypi.python.org/packages/72/c2/c09362ab29338413ab687b47dab03bab4a792e2bbb727a1eb5e0a88e3b86/setuptools-39.0.1.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
 Group    : Development/Tools
 License  : MIT Python-2.0 ZPL-2.0
 Requires: setuptools-bin
-Requires: setuptools-legacypython
 Requires: setuptools-python3
 Requires: setuptools-python
 Requires: certifi
@@ -84,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1522456548
+export SOURCE_DATE_EPOCH=1528557583
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -94,7 +93,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 || :
 %install
-export SOURCE_DATE_EPOCH=1522456548
+export SOURCE_DATE_EPOCH=1528557583
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
