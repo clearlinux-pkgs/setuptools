@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 39.0.1
-Release  : 112
+Release  : 113
 URL      : https://pypi.python.org/packages/72/c2/c09362ab29338413ab687b47dab03bab4a792e2bbb727a1eb5e0a88e3b86/setuptools-39.0.1.zip
 Source0  : https://pypi.python.org/packages/72/c2/c09362ab29338413ab687b47dab03bab4a792e2bbb727a1eb5e0a88e3b86/setuptools-39.0.1.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -12,21 +12,15 @@ Group    : Development/Tools
 License  : MIT Python-2.0 ZPL-2.0
 Requires: setuptools-bin
 Requires: setuptools-python3
+Requires: setuptools-license
 Requires: setuptools-python
 Requires: certifi
 Requires: setuptools
 BuildRequires : pbr
 BuildRequires : pip
-BuildRequires : py
-BuildRequires : pytest
-
-BuildRequires : python-mock
+BuildRequires : python-core
 BuildRequires : python3-dev
 BuildRequires : setuptools
-BuildRequires : testrepository
-BuildRequires : testresources
-BuildRequires : testscenarios
-BuildRequires : testtools
 
 %description
 .. image:: https://img.shields.io/pypi/v/setuptools.svg
@@ -35,6 +29,7 @@ BuildRequires : testtools
 %package bin
 Summary: bin components for the setuptools package.
 Group: Binaries
+Requires: setuptools-license
 
 %description bin
 bin components for the setuptools package.
@@ -55,6 +50,14 @@ Requires: python-core
 
 %description legacypython
 legacypython components for the setuptools package.
+
+
+%package license
+Summary: license components for the setuptools package.
+Group: Default
+
+%description license
+license components for the setuptools package.
 
 
 %package python
@@ -83,18 +86,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1528557583
+export SOURCE_DATE_EPOCH=1529116539
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-py.test-2.7 || :
 %install
-export SOURCE_DATE_EPOCH=1528557583
+export SOURCE_DATE_EPOCH=1529116539
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/doc/setuptools
+cp LICENSE %{buildroot}/usr/share/doc/setuptools/LICENSE
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 echo ----[ mark ]----
@@ -117,6 +117,10 @@ echo ----[ mark ]----
 %files legacypython
 %defattr(-,root,root,-)
 /usr/lib/python2*/*
+
+%files license
+%defattr(-,root,root,-)
+/usr/share/doc/setuptools/LICENSE
 
 %files python
 %defattr(-,root,root,-)
