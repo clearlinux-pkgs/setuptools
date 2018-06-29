@@ -115,6 +115,7 @@ R-partykit
 R-pbkrtest
 R-pcaPP
 R-pdfCluster
+R-phylogram
 R-pkgmaker
 R-plm
 R-plotly
@@ -642,6 +643,7 @@ pexpect
 pickleshare
 pidgin
 pip
+pip-legacy
 pluggy
 ply
 polkit
@@ -745,6 +747,7 @@ serf
 setproctitle
 setserial
 setuptools
+setuptools-legacy
 setuptools_scm
 setuptools_scm_git_archive
 shim
