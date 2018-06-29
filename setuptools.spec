@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 39.2.0
-Release  : 117
+Release  : 118
 URL      : https://files.pythonhosted.org/packages/1a/04/d6f1159feaccdfc508517dba1929eb93a2854de729fa68da9d5c6b48fa00/setuptools-39.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/1a/04/d6f1159feaccdfc508517dba1929eb93a2854de729fa68da9d5c6b48fa00/setuptools-39.2.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1530314644
+export SOURCE_DATE_EPOCH=1530315617
 python3 setup.py build -b py3
 
 %install
