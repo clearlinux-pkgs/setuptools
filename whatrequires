@@ -83,7 +83,6 @@ bleach
 bmap-tools
 bokeh
 boto
-brotli
 bz2file
 cached-property
 cachetools
@@ -234,6 +233,7 @@ nose
 nose-cov
 nose-cover3
 nose-parameterized
+numba
 numpy
 numpydoc
 oauthlib
