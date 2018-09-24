@@ -203,7 +203,6 @@ libpwquality
 librabbitmq
 libwebp
 linecache2
-llvm
 llvmlite
 logilab-common
 logutils
@@ -227,7 +226,6 @@ ndg_httpsclient
 neon
 net-snmp
 netaddr
-networkx
 ninja
 nose
 nose-cov
@@ -292,7 +290,6 @@ pyasn1-modules
 pycadf
 pycairo
 pycodestyle
-pycparser
 pydot
 pydot_ng
 pydotplus
