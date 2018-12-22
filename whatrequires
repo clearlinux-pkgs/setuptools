@@ -6,11 +6,9 @@ Mako
 Markdown
 PasteDeploy
 Pint
-PyJWT
 PyWavelets
 Pygments
 QtAwesome
-QtPy
 Routes
 Send2Trash
 SocksiPy-branch
@@ -53,11 +51,9 @@ astunparse
 automaton
 backcall
 backports.ssl_match_hostname
-backports.weakref
 bashate
 bazel
 bcrypt
-bind-utils
 bkcharts
 bmap-tools
 bokeh
@@ -82,7 +78,6 @@ compat-protobuf-soname15
 component
 compute-image-packages
 configobj
-configparser
 contextlib2
 cov-core
 crcmod
@@ -105,7 +100,6 @@ dockerpy-creds
 docutils
 dogpile.core
 dogtail
-ecdsa
 empy
 entrypoints
 enum34
@@ -123,15 +117,10 @@ gast
 gcs-oauth2-boto-plugin
 gdal
 glances
-google-api-python-client
 gsutil
-h5py
 hgtools
-httplib2
 httpretty
-i2c-tools
 icalendar
-influxdb
 iotop
 ipaddr
 ipaddress
@@ -151,7 +140,6 @@ jsonschema
 jupyter
 jupyter-nbgallery
 jupyter-notebook-gist
-jupyter_client
 jupyter_core
 kazoo
 keystone
@@ -160,13 +148,11 @@ koji
 libarchive-c
 libpwquality
 librabbitmq
-libwebp
 linecache2
 llvmlite
 logilab-common
 logutils
 mccabe
-mod_wsgi
 mongodict
 monotonic
 mox
@@ -176,7 +162,6 @@ mozjs38
 mozjs52
 mozjs60
 mpi4py
-mpmath
 nbformat
 ndg_httpsclient
 neon
@@ -218,7 +203,6 @@ pyasn1-modules
 pycadf
 pycairo
 pycodestyle
-pydot
 pydot_ng
 pydotplus
 pypandoc
@@ -252,15 +236,12 @@ repoze.sphinx.autointerface
 repoze.who
 requests
 requestsexceptions
-restructuredtext_lint
 retry_decorator
 retype
 rfc3986
 rjsmin
 rsa
 rtslib-fb
-sahara
-scipy
 scripttest
 semantic_version
 setproctitle
@@ -280,6 +261,7 @@ sqlparse
 statsmodels
 suds-jurko
 sure
+svg.path
 tempest-lib
 tensorboard
 tensorflow
@@ -295,7 +277,6 @@ traceback2
 trollius
 typed-ast
 tzlocal
-unbundle
 unicodecsv
 unittest2
 uritemplate
