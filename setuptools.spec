@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 40.6.3
-Release  : 135
+Release  : 136
 URL      : https://files.pythonhosted.org/packages/37/1b/b25507861991beeade31473868463dad0e58b1978c209de27384ae541b0b/setuptools-40.6.3.zip
 Source0  : https://files.pythonhosted.org/packages/37/1b/b25507861991beeade31473868463dad0e58b1978c209de27384ae541b0b/setuptools-40.6.3.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
