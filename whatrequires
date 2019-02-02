@@ -8,7 +8,6 @@ PasteDeploy
 Pint
 PyWavelets
 Pygments
-QtAwesome
 Send2Trash
 SocksiPy-branch
 Sphinx
@@ -39,7 +38,6 @@ XStatic-term.js
 aeon
 aioeventlet
 aiohttp-cors
-amqp
 apache-spark
 apache-zookeeper
 apipkg
@@ -199,7 +197,6 @@ python-Levenshtein
 python-augeas
 python-ceilometerclient
 python-dateutil
-python-editor
 python-gflags
 python-magic
 python-memcached
@@ -209,6 +206,7 @@ python-multilib
 python-polib
 python-systemd
 python-urwid
+pytorch
 pyudev
 pyxdg
 qtwebengine
@@ -260,7 +258,6 @@ uwsgi
 vcstool
 vcversioner
 vine
-virt-manager
 warlock
 wcwidth
 webcolors
