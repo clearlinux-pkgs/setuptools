@@ -183,7 +183,6 @@ ptyprocess
 pulsectl
 pyScss
 pyaml
-pycadf
 pycodestyle
 pydot_ng
 pydotplus
