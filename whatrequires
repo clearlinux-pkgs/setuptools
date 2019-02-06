@@ -110,7 +110,6 @@ gdal
 glances
 hgtools
 httpretty
-icalendar
 iotop
 ipaddr
 ipaddress
@@ -121,7 +120,6 @@ ipython_genutils
 iso8601
 isodate
 isort
-itsdangerous
 jarn.viewdoc
 jmespath
 josepy
@@ -170,7 +168,6 @@ passlib
 pathlib
 pbr-legacy
 pecan
-pika
 pika-pool
 pip-legacy
 portend
