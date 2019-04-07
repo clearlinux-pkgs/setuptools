@@ -136,7 +136,6 @@ pathlib
 pbr-legacy
 pika-pool
 pip-legacy
-portend
 positional
 posix_ipc
 pretend
