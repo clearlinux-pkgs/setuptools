@@ -1,4 +1,5 @@
 # This file contains recursive sources that require this package
+Markdown
 PasteDeploy
 Pint
 PyWavelets
@@ -44,6 +45,7 @@ ceilometer
 ceph
 ceph-deploy
 certbot
+cheroot
 chrome-gnome-shell
 comedilib
 compat-libwebp-soname6
@@ -84,7 +86,6 @@ flake8-blind-except
 flake8-import-order
 flake8-polyfill
 funcsigs
-futurist
 gabbi
 gast
 hgtools
@@ -112,6 +113,7 @@ librabbitmq
 logilab-common
 logutils
 mccabe
+mercurial
 mongodict
 monotonic
 mox
@@ -198,7 +200,6 @@ testrepository
 testresources
 testtools
 tflearn
-tox
 trollius
 tzlocal
 unicodecsv
