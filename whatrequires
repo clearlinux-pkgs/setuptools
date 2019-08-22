@@ -24,7 +24,6 @@ XStatic-mdi
 XStatic-roboto-fontface
 XStatic-smart-table
 XStatic-term.js
-aeon
 aioeventlet
 aiohttp-cors
 apache-zookeeper
@@ -116,7 +115,6 @@ mongodict
 monotonic
 mox
 mozjs
-mozjs38
 mozjs52
 mozjs60
 nbformat
@@ -205,6 +203,7 @@ vine
 wcwidth
 webencodings
 websockify
+wheel
 wheelhouse-uploader
 wsgiref
 yasm
