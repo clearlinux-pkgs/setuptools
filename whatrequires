@@ -6,7 +6,6 @@ Sphinx
 XStatic-Angular
 XStatic-Angular-Bootstrap
 XStatic-Angular-Gettext
-XStatic-Angular-lrdragndrop
 XStatic-Bootstrap-Datepicker
 XStatic-Bootstrap-SCSS
 XStatic-Font-Awesome
@@ -15,12 +14,9 @@ XStatic-JQuery-Migrate
 XStatic-JQuery.TableSorter
 XStatic-JQuery.quicksearch
 XStatic-JSEncrypt
-XStatic-Jasmine
-XStatic-Magic-Search
 XStatic-Rickshaw
 XStatic-Spin
 XStatic-bootswatch
-XStatic-mdi
 XStatic-roboto-fontface
 XStatic-smart-table
 XStatic-term.js
@@ -30,7 +26,6 @@ apache-zookeeper
 apipkg
 appdirs
 backcall
-backports.ssl_match_hostname
 bashate
 bazel
 bkcharts
@@ -45,18 +40,15 @@ cheroot
 colcon-core
 colcon-python-setup-py
 comedilib
-compat-libwebp-soname6
-compat-llvm-soname4
-compat-llvm-soname5
 compat-protobuf-soname14
 compat-protobuf-soname15
 component
 compute-image-packages
 conda
+configparser
 cotyledon
 cov-core
 crcmod
-cssselect
 cycler
 ddt
 deap
@@ -80,10 +72,7 @@ fixtures
 flake8-blind-except
 flake8-import-order
 flake8-polyfill
-fs
 funcsigs
-gabbi
-gast
 hgtools
 httpretty
 ipaddr
@@ -103,10 +92,9 @@ jupyter_core
 keyring
 keystone
 kiwisolver
-koji
+lazy-object-proxy
 libarchive-c
 libpwquality
-librabbitmq
 logilab-common
 logutils
 mccabe
@@ -120,7 +108,6 @@ mozjs60
 nbformat
 ndg_httpsclient
 netaddr
-ninja
 nose-cov
 nose-cover3
 nose-parameterized
@@ -149,7 +136,6 @@ pypandoc
 pyquery
 pyrfc3339
 pyroma
-pyrsistent
 pytest
 python-Levenshtein
 python-augeas
@@ -187,6 +173,7 @@ tensorboard
 tensorflow
 tensorflow-estimator
 tensorflow-probability
+tensorflow-serving
 termcolor
 testrepository
 testresources
@@ -205,7 +192,6 @@ webencodings
 websockify
 wheel
 wheelhouse-uploader
-wsgiref
 yasm
 yum-metadata-parser
 zake
