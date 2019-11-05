@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 42.0.2
-Release  : 153
+Release  : 154
 URL      : https://files.pythonhosted.org/packages/f7/b6/5b98441b6749ea1db1e41e5e6e7a93cbdd7ffd45e11fe1b22d45884bc777/setuptools-42.0.2.zip
 Source0  : https://files.pythonhosted.org/packages/f7/b6/5b98441b6749ea1db1e41e5e6e7a93cbdd7ffd45e11fe1b22d45884bc777/setuptools-42.0.2.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -67,8 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1575287972
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1572989668
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -96,7 +95,7 @@ echo ----[ mark ]----
 %files bin
 %defattr(-,root,root,-)
 /usr/bin/easy_install
-/usr/bin/easy_install-3.7
+/usr/bin/easy_install-3.8
 
 %files license
 %defattr(0644,root,root,0755)
