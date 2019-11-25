@@ -58,7 +58,6 @@ doc8
 dogpile.core
 dogtail
 extras
-fasteners
 fixtures
 flake8-blind-except
 flake8-import-order
@@ -126,6 +125,7 @@ pyquery
 pyrfc3339
 pyroma
 pytest
+pytest-rerunfailures
 python-Levenshtein
 python-augeas
 python-ceilometerclient
@@ -150,12 +150,9 @@ scripttest
 semantic_version
 setuptools
 setuptools-legacy
-setuptools_scm_git_archive
 simplegeneric
 smartcols
-sos
 suds-jurko
-svg.path
 tblib
 tempest-lib
 tensorboard
