@@ -34,6 +34,7 @@ ceph
 ceph-deploy
 certbot
 cheroot
+cmd2
 colcon-core
 colcon-python-setup-py
 comedilib
@@ -89,7 +90,6 @@ mozjs
 mozjs52
 mozjs60
 munch
-nbformat
 ndg_httpsclient
 netaddr
 nose-cov
@@ -158,7 +158,6 @@ uritemplate
 urllib3
 vcstool
 vcversioner
-vine
 webencodings
 wheel
 wheelhouse-uploader
