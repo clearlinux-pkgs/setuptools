@@ -49,7 +49,6 @@ cov-core
 crcmod
 cycler
 ddt
-deap
 distributed
 django-babel
 django-discover-runner
@@ -103,7 +102,6 @@ oset
 pandocfilters
 passlib
 pika-pool
-pip
 pip-legacy
 positional
 posix_ipc
