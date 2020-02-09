@@ -49,6 +49,7 @@ cov-core
 crcmod
 cycler
 ddt
+diff-match-patch
 distributed
 django-babel
 django-discover-runner
@@ -60,6 +61,7 @@ flake8-blind-except
 flake8-import-order
 flake8-polyfill
 funcsigs
+google-auth
 grpc
 hgtools
 httpretty
@@ -100,7 +102,6 @@ opcodes
 openstack-setuptools
 oset
 pandocfilters
-passlib
 pika-pool
 pip-legacy
 positional
@@ -113,7 +114,6 @@ pyScss
 pyaml
 pydotplus
 pypandoc
-pyquery
 pyroma
 pytest
 pytest-rerunfailures
