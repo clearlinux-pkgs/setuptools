@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 45.2.0
-Release  : 160
+Release  : 161
 URL      : https://files.pythonhosted.org/packages/68/75/d1d7b7340b9eb6e0388bf95729e63c410b381eb71fe8875cdfd949d8f9ce/setuptools-45.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/68/75/d1d7b7340b9eb6e0388bf95729e63c410b381eb71fe8875cdfd949d8f9ce/setuptools-45.2.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -21,7 +21,56 @@ BuildRequires : setuptools
 
 %description
 .. image:: https://img.shields.io/pypi/v/setuptools.svg
-:target: https://pypi.org/project/setuptools
+   :target: https://pypi.org/project/setuptools
+
+.. image:: https://img.shields.io/readthedocs/setuptools/latest.svg
+    :target: https://setuptools.readthedocs.io
+
+.. image:: https://img.shields.io/travis/pypa/setuptools/master.svg?label=Linux%20CI&logo=travis&logoColor=white
+   :target: https://travis-ci.org/pypa/setuptools
+
+.. image:: https://img.shields.io/appveyor/ci/pypa/setuptools/master.svg?label=Windows%20CI&logo=appveyor&logoColor=white
+   :target: https://ci.appveyor.com/project/pypa/setuptools/branch/master
+
+.. image:: https://img.shields.io/codecov/c/github/pypa/setuptools/master.svg?logo=codecov&logoColor=white
+   :target: https://codecov.io/gh/pypa/setuptools
+
+.. image:: https://tidelift.com/badges/github/pypa/setuptools?style=flat
+   :target: https://tidelift.com/subscription/pkg/pypi-setuptools?utm_source=pypi-setuptools&utm_medium=readme
+
+.. image:: https://img.shields.io/pypi/pyversions/setuptools.svg
+
+See the `Installation Instructions
+<https://packaging.python.org/installing/>`_ in the Python Packaging
+User's Guide for instructions on installing, upgrading, and uninstalling
+Setuptools.
+
+Questions and comments should be directed to the `distutils-sig
+mailing list <http://mail.python.org/pipermail/distutils-sig/>`_.
+Bug reports and especially tested patches may be
+submitted directly to the `bug tracker
+<https://github.com/pypa/setuptools/issues>`_.
+
+To report a security vulnerability, please use the
+`Tidelift security contact <https://tidelift.com/security>`_.
+Tidelift will coordinate the fix and disclosure.
+
+
+For Enterprise
+==============
+
+Available as part of the Tidelift Subscription.
+
+Setuptools and the maintainers of thousands of other packages are working with Tidelift to deliver one enterprise subscription that covers all of the open source you use.
+
+`Learn more <https://tidelift.com/subscription/pkg/pypi-setuptools?utm_source=pypi-setuptools&utm_medium=referral&utm_campaign=github>`_.
+
+Code of Conduct
+===============
+
+Everyone interacting in the setuptools project's codebases, issue trackers,
+chat rooms, and mailing lists is expected to follow the
+`PyPA Code of Conduct <https://www.pypa.io/en/latest/code-of-conduct/>`_.
 
 %package bin
 Summary: bin components for the setuptools package.
@@ -53,6 +102,7 @@ python components for the setuptools package.
 Summary: python3 components for the setuptools package.
 Group: Default
 Requires: python3-core
+Provides: pypi(setuptools)
 
 %description python3
 python3 components for the setuptools package.
@@ -67,7 +117,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581286803
+export SOURCE_DATE_EPOCH=1582922976
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
