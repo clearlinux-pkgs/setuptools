@@ -1,8 +1,6 @@
 # This file contains recursive sources that require this package
-Markdown
 Sphinx
 aiohttp-cors
-apache-zookeeper
 apipkg
 bazel
 blockdiag
@@ -11,6 +9,7 @@ case
 ceph
 ceph-deploy
 certbot
+check-manifest
 cheroot
 cmd2
 colcon-core
@@ -35,6 +34,7 @@ jaraco.collections
 jaraco.text
 jarn.viewdoc
 josepy
+jsonpickle
 jsonschema
 keyring
 keystone
@@ -44,11 +44,9 @@ librealsense
 logilab-common
 mercurial
 mozjs
-mozjs52
 mozjs60
+mozjs68
 munch
-nova
-numba
 opcodes
 openstack-setuptools
 oset
