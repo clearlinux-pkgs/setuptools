@@ -69,6 +69,7 @@ scikit-build
 semantic_version
 setuptools
 setuptools-legacy
+setuptools_scm
 tblib
 tensorboard
 tensorflow
