@@ -25,6 +25,7 @@ distributed
 flake8-blind-except
 flake8-import-order
 funcsigs
+gevent
 google-auth
 hgtools
 ipdb
