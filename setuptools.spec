@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 49.2.0
-Release  : 173
+Release  : 174
 URL      : https://files.pythonhosted.org/packages/2f/8e/38259f4a44944a92068d5ff77230511a4c685604b47a81318f9e5cf2cc24/setuptools-49.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/2f/8e/38259f4a44944a92068d5ff77230511a4c685604b47a81318f9e5cf2cc24/setuptools-49.2.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
