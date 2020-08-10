@@ -15,6 +15,7 @@ cmd2
 colcon-core
 colcon-python-setup-py
 compat-protobuf-soname21
+compat-protobuf-soname22
 compute-image-packages
 conda
 cotyledon
@@ -24,6 +25,7 @@ flake8-blind-except
 flake8-import-order
 funcsigs
 gevent
+google-api-core
 google-auth
 hgtools
 ipdb
