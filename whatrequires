@@ -78,7 +78,6 @@ tensorflow-addons
 tensorflow-estimator
 tensorflow-probability
 tensorflow-serving
-tldextract
 twine
 unicodecsv
 urllib3
