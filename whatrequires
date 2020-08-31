@@ -58,6 +58,7 @@ pulsectl
 pypandoc
 pyroma
 pyside2-setup
+pytest-cov
 pytest-rerunfailures
 python-Levenshtein
 python-dateutil
