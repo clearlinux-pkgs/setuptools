@@ -44,8 +44,6 @@ lazy-object-proxy
 librealsense
 logilab-common
 mercurial
-mozjs
-mozjs60
 mozjs68
 munch
 opcodes
