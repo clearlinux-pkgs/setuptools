@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 51.0.0
-Release  : 189
+Release  : 190
 URL      : https://files.pythonhosted.org/packages/12/e1/b9a2926a3c5a3fb055b8f85052f5baa890106a0e21b64a977c10affea751/setuptools-51.0.0.zip
 Source0  : https://files.pythonhosted.org/packages/12/e1/b9a2926a3c5a3fb055b8f85052f5baa890106a0e21b64a977c10affea751/setuptools-51.0.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607362792
+export SOURCE_DATE_EPOCH=1607969634
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -98,7 +98,7 @@ echo ----[ mark ]----
 %files bin
 %defattr(-,root,root,-)
 /usr/bin/easy_install
-/usr/bin/easy_install-3.8
+/usr/bin/easy_install-3.9
 
 %files license
 %defattr(0644,root,root,0755)
