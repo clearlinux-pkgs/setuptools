@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 51.0.0
-Release  : 187
+Release  : 188
 URL      : https://files.pythonhosted.org/packages/12/e1/b9a2926a3c5a3fb055b8f85052f5baa890106a0e21b64a977c10affea751/setuptools-51.0.0.zip
 Source0  : https://files.pythonhosted.org/packages/12/e1/b9a2926a3c5a3fb055b8f85052f5baa890106a0e21b64a977c10affea751/setuptools-51.0.0.zip
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
