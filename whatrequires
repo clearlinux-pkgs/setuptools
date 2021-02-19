@@ -12,6 +12,7 @@ ceph-deploy
 certbot
 check-manifest
 cheroot
+cmd2
 compat-protobuf-soname22
 compute-image-packages
 conda
