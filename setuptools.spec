@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 54.0.0
-Release  : 200
+Release  : 201
 URL      : https://files.pythonhosted.org/packages/0b/bb/a212bcfd147edcbca13ba95691411d7843bfeeb5165857abf4e9a0822e99/setuptools-54.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/bb/a212bcfd147edcbca13ba95691411d7843bfeeb5165857abf4e9a0822e99/setuptools-54.0.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
