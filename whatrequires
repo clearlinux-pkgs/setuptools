@@ -1,8 +1,10 @@
 # This file contains recursive sources that require this package
 Paste
 Sphinx
+acme
 aiohttp-cors
 apipkg
+backports.entry_points_selectable
 bazel
 black
 blockdiag
@@ -13,7 +15,6 @@ certbot
 check-manifest
 cheroot
 cmd2
-compat-protobuf-soname22
 compute-image-packages
 conda
 diff-match-patch
@@ -33,13 +34,13 @@ jarn.viewdoc
 josepy
 jsonpickle
 jsonschema
+jupyter-packaging
 keyring
 kiwisolver
 lazy-object-proxy
 librealsense
 logilab-common
 mercurial
-mozjs68
 mozjs78
 opcodes
 pip-legacy
@@ -50,6 +51,7 @@ pytest-cov
 pytest-rerunfailures
 python-Levenshtein
 python-dateutil
+python-lsp-server
 pytorch
 pyusb
 qtwebengine
