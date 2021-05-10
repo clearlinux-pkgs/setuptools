@@ -4,12 +4,13 @@
 #
 Name     : setuptools
 Version  : 56.1.0
-Release  : 203
+Release  : 204
 URL      : https://files.pythonhosted.org/packages/71/a0/96ab4813ede181fa6c5d01c951dbf156b7d126f7589d0efa3f7861ce7a67/setuptools-56.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/71/a0/96ab4813ede181fa6c5d01c951dbf156b7d126f7589d0efa3f7861ce7a67/setuptools-56.1.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
 Group    : Development/Tools
 License  : MIT Python-2.0 ZPL-2.0
+Requires: setuptools-bin = %{version}-%{release}
 Requires: setuptools-license = %{version}-%{release}
 Requires: setuptools-python = %{version}-%{release}
 Requires: setuptools-python3 = %{version}-%{release}
@@ -23,6 +24,15 @@ BuildRequires : setuptools
 :target: `PyPI link`_
 .. image:: https://img.shields.io/pypi/pyversions/setuptools.svg
 :target: `PyPI link`_
+
+%package bin
+Summary: bin components for the setuptools package.
+Group: Binaries
+Requires: setuptools-license = %{version}-%{release}
+
+%description bin
+bin components for the setuptools package.
+
 
 %package license
 Summary: license components for the setuptools package.
@@ -60,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1620230634
+export SOURCE_DATE_EPOCH=1620655546
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -81,9 +91,17 @@ python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
+## install_append content
+mkdir -p %{buildroot}/usr/bin
+touch %{buildroot}/usr/bin/easy_install_is_deprecated
+## install_append end
 
 %files
 %defattr(-,root,root,-)
+
+%files bin
+%defattr(-,root,root,-)
+/usr/bin/easy_install_is_deprecated
 
 %files license
 %defattr(0644,root,root,0755)

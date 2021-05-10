@@ -1,0 +1,2 @@
+mkdir -p %{buildroot}/usr/bin
+touch %{buildroot}/usr/bin/easy_install_is_deprecated
