@@ -1,2 +1,3 @@
 mkdir -p %{buildroot}/usr/bin
-touch %{buildroot}/usr/bin/easy_install_is_deprecated
+echo "#!/bin/sh" > %{buildroot}/usr/bin/easy_install_is_deprecated
+chmod 755 %{buildroot}/usr/bin/easy_install_is_deprecated

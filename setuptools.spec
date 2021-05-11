@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 56.2.0
-Release  : 205
+Release  : 206
 URL      : https://files.pythonhosted.org/packages/fc/0a/b486efab52f8ad03c3eca0c998dd3deafba0c39b29e0c49c68a7152c8b2d/setuptools-56.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/fc/0a/b486efab52f8ad03c3eca0c998dd3deafba0c39b29e0c49c68a7152c8b2d/setuptools-56.2.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1620656044
+export SOURCE_DATE_EPOCH=1620752427
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -93,7 +93,8 @@ cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## install_append content
 mkdir -p %{buildroot}/usr/bin
-touch %{buildroot}/usr/bin/easy_install_is_deprecated
+echo "#!/bin/sh" > %{buildroot}/usr/bin/easy_install_is_deprecated
+chmod 755 %{buildroot}/usr/bin/easy_install_is_deprecated
 ## install_append end
 
 %files

@@ -6,7 +6,6 @@ aiohttp-cors
 apipkg
 backports.entry_points_selectable
 bazel
-black
 blockdiag
 boto
 ceph
