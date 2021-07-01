@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 57.0.0
-Release  : 207
+Release  : 208
 URL      : https://files.pythonhosted.org/packages/88/fc/d17731c0cc67a5a8e385e4f47c3b0b186720e198b70f076ccb4676804a8f/setuptools-57.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/88/fc/d17731c0cc67a5a8e385e4f47c3b0b186720e198b70f076ccb4676804a8f/setuptools-57.0.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
