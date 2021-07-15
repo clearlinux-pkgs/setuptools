@@ -1,5 +1,6 @@
 # This file contains recursive sources that require this package
 Paste
+PasteDeploy
 Sphinx
 acme
 aiohttp-cors
@@ -24,6 +25,7 @@ funcsigs
 gevent
 google-api-core
 google-auth
+grpcio-tools
 ipdb
 ipython
 jaraco.classes
@@ -52,12 +54,12 @@ python-Levenshtein
 python-dateutil
 python-lsp-server
 pytorch
-pyusb
 qtwebengine
+semantic_version
 setuptools
 setuptools-legacy
+setuptools-rust
 setuptools_scm
-singledispatch
 tblib
 tensorboard
 tensorflow
@@ -65,7 +67,6 @@ tensorflow-addons
 tensorflow-estimator
 tensorflow-probability
 tensorflow-serving
-tqdm
 twine
 urllib3
 wheel
