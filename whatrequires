@@ -5,6 +5,7 @@ Sphinx
 acme
 aiohttp-cors
 apipkg
+astroid
 backports.entry_points_selectable
 bazel
 blockdiag
@@ -29,14 +30,11 @@ grpcio-tools
 ipdb
 ipython
 jaraco.classes
-jaraco.collections
-jaraco.text
 jarn.viewdoc
 josepy
 jsonpickle
 jsonschema
 jupyter-packaging
-keyring
 kiwisolver
 lazy-object-proxy
 librealsense
@@ -45,6 +43,7 @@ mercurial
 mozjs78
 opcodes
 pip-legacy
+platformdirs
 protobuf
 pyroma
 pyside2-setup
