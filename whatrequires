@@ -4,7 +4,6 @@ PasteDeploy
 Sphinx
 acme
 aiohttp-cors
-apipkg
 astroid
 backports.entry_points_selectable
 bazel
@@ -17,6 +16,7 @@ certbot
 check-manifest
 cheroot
 cmd2
+compat-protobuf-soname23
 compute-image-packages
 conda
 diff-match-patch
@@ -46,7 +46,6 @@ mozjs91
 opcodes
 pip-legacy
 platformdirs
-protobuf
 pyroma
 pyside2-setup
 pytest-cov
