@@ -54,6 +54,7 @@ python-Levenshtein
 python-dateutil
 python-lsp-server
 pytorch
+qt6base
 qtwebengine
 semantic_version
 setuptools
