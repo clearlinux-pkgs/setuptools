@@ -72,6 +72,7 @@ twine
 urllib3
 wheel
 xmldiff
+yq
 zc.lockfile
 zipp
 zope.component
