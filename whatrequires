@@ -23,6 +23,7 @@ compute-image-packages
 conda
 diff-match-patch
 distributed
+filelock
 flake8-blind-except
 flake8-import-order
 funcsigs
@@ -67,6 +68,7 @@ setuptools-legacy
 setuptools-rust
 setuptools_scm
 soupsieve
+syntax-highlighting
 tblib
 twine
 urllib3
