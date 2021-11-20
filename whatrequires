@@ -1,4 +1,5 @@
 # This file contains recursive sources that require this package
+Markdown
 Paste
 PasteDeploy
 Sphinx
@@ -17,12 +18,10 @@ ceph-deploy
 certbot
 check-manifest
 cheroot
-cmd2
 compat-protobuf-soname23
 compute-image-packages
 conda
 diff-match-patch
-distributed
 filelock
 flake8-blind-except
 flake8-import-order
@@ -45,9 +44,12 @@ logilab-common
 mercurial
 mozjs78
 mozjs91
+mpi4py
 opcodes
+packaging
 pip-legacy
 platformdirs
+plotly
 pyroma
 pyside2-setup
 pytest-cov
@@ -91,4 +93,3 @@ zope.proxy
 zope.schema
 zope.security
 zope.testing
-zope.testrunner
