@@ -6,7 +6,6 @@ Sphinx
 acme
 aiohttp
 aiohttp-cors
-astroid
 async-timeout
 backports.entry_points_selectable
 bazel
@@ -31,7 +30,6 @@ google-api-core
 google-auth
 grpcio-tools
 ipdb
-ipython
 jaraco.classes
 jarn.viewdoc
 josepy
@@ -40,7 +38,6 @@ jsonschema
 jupyter-packaging
 lazy-object-proxy
 librealsense
-logilab-common
 mercurial
 mozjs78
 mozjs91
@@ -53,15 +50,11 @@ plotly
 pyroma
 pyside2-setup
 pytest-cov
-pytest-randomly
 pytest-rerunfailures
 python-Levenshtein
 python-dateutil
 python-install
-python-lsp-server
-python-tzdata
 pytorch
-pytz-deprecation-shim
 qt6base
 qtwebengine
 semantic_version
@@ -72,7 +65,6 @@ setuptools_scm
 soupsieve
 syntax-highlighting
 tblib
-twine
 urllib3
 wheel
 xmldiff
