@@ -2,14 +2,12 @@
 Markdown
 Paste
 PasteDeploy
-Sphinx
 acme
 aiohttp
 aiohttp-cors
 async-timeout
 backports.entry_points_selectable
 bazel
-blockdiag
 boto
 bowler
 ceph
@@ -60,7 +58,6 @@ qtwebengine
 semantic_version
 setuptools
 setuptools-legacy
-setuptools-rust
 setuptools_scm
 soupsieve
 syntax-highlighting
@@ -68,7 +65,6 @@ tblib
 urllib3
 wheel
 xmldiff
-yq
 zc.lockfile
 zipp
 zope.component
