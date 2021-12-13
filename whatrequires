@@ -2,7 +2,6 @@
 Markdown
 Paste
 PasteDeploy
-acme
 aiohttp
 aiohttp-cors
 async-timeout
@@ -17,14 +16,11 @@ check-manifest
 cheroot
 compat-protobuf-soname23
 compute-image-packages
-conda
 diff-match-patch
 filelock
 flake8-blind-except
 flake8-import-order
 funcsigs
-gevent
-google-api-core
 google-auth
 grpcio-tools
 ipdb
