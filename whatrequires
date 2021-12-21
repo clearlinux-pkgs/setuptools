@@ -4,7 +4,6 @@ Paste
 PasteDeploy
 aiohttp
 aiohttp-cors
-async-timeout
 backports.entry_points_selectable
 bazel
 boto
