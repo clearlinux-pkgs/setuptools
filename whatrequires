@@ -20,7 +20,6 @@ filelock
 flake8-blind-except
 flake8-import-order
 funcsigs
-google-auth
 ipdb
 jaraco.classes
 jarn.viewdoc
@@ -38,7 +37,6 @@ opcodes
 packaging
 pip-legacy
 platformdirs
-plotly
 pyroma
 pyside2-setup
 pytest-cov
