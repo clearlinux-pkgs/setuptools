@@ -16,7 +16,6 @@ cheroot
 compat-protobuf-soname23
 compute-image-packages
 diff-match-patch
-filelock
 flake8-blind-except
 flake8-import-order
 funcsigs
