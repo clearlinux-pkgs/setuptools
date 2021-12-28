@@ -1,0 +1,24 @@
+Link .so files in the various avx2/avx512 combos as well
+
+--- setuptools-60.1.0/setuptools/_distutils/unixccompiler.py.org	2021-12-28 19:30:50.296070667 +0000
++++ setuptools-60.1.0/setuptools/_distutils/unixccompiler.py	2021-12-28 19:31:37.858070004 +0000
+@@ -165,6 +165,10 @@
+         if self._need_link(objects, output_filename):
+             ld_args = (objects + self.objects +
+                        lib_opts + ['-o', output_filename])
++            ld_args_avx2 = ([obj + ".avx2" for obj in objects] + self.objects +
++                       lib_opts + ['-o', output_filename + ".avx2"])
++            ld_args_avx512 = ([obj + ".avx512" for obj in objects] + self.objects +
++                       lib_opts + ['-o', output_filename + ".avx512"])
+             if debug:
+                 ld_args[:0] = ['-g']
+             if extra_preargs:
+@@ -201,6 +205,8 @@
+                 if sys.platform == 'darwin':
+                     linker = _osx_support.compiler_fixup(linker, ld_args)
+ 
++                self.spawn(linker + ld_args_avx2)
++                self.spawn(linker + ld_args_avx512)
+                 self.spawn(linker + ld_args)
+             except DistutilsExecError as msg:
+                 raise LinkError(msg)

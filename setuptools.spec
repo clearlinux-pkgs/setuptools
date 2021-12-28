@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 60.1.0
-Release  : 239
+Release  : 240
 URL      : https://files.pythonhosted.org/packages/80/d3/2954b9ac8ad256f352d941453c44d2d2b219aafeb95277e9282bef606329/setuptools-60.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/80/d3/2954b9ac8ad256f352d941453c44d2d2b219aafeb95277e9282bef606329/setuptools-60.1.0.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -16,6 +16,7 @@ Requires: setuptools-python = %{version}-%{release}
 Requires: setuptools-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : setuptools
+Patch1: avx2.patch
 
 %description
 .. image:: https://raw.githubusercontent.com/pypa/setuptools/main/docs/images/banner-640x320.svg
@@ -60,13 +61,14 @@ python3 components for the setuptools package.
 %prep
 %setup -q -n setuptools-60.1.0
 cd %{_builddir}/setuptools-60.1.0
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640625590
+export SOURCE_DATE_EPOCH=1640720019
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
