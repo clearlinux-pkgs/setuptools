@@ -13,12 +13,15 @@ Link .so files in the various avx2/avx512 combos as well
              if debug:
                  ld_args[:0] = ['-g']
              if extra_preargs:
-@@ -201,6 +205,8 @@
+@@ -201,6 +205,11 @@
                  if sys.platform == 'darwin':
                      linker = _osx_support.compiler_fixup(linker, ld_args)
  
-+                self.spawn(linker + ld_args_avx2)
-+                self.spawn(linker + ld_args_avx512)
++                try:
++	                self.spawn(linker + ld_args_avx2)
++	                self.spawn(linker + ld_args_avx512)
++		 except:
++			None
                  self.spawn(linker + ld_args)
              except DistutilsExecError as msg:
                  raise LinkError(msg)

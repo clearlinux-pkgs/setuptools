@@ -4,7 +4,7 @@
 #
 Name     : setuptools
 Version  : 60.1.1
-Release  : 241
+Release  : 242
 URL      : https://files.pythonhosted.org/packages/15/8f/cf533796488c53b4824be97b79b86ac161bcc011af9613bec6027f52e78d/setuptools-60.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/15/8f/cf533796488c53b4824be97b79b86ac161bcc011af9613bec6027f52e78d/setuptools-60.1.1.tar.gz
 Summary  : Easily download, build, install, upgrade, and uninstall Python packages
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640726433
+export SOURCE_DATE_EPOCH=1640806273
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
