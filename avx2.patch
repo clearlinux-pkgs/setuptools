@@ -21,7 +21,7 @@ Link .so files in the various avx2/avx512 combos as well
 +                       self.spawn(linker + ld_args_avx2)
 +                       self.spawn(linker + ld_args_avx512)
 +                except:
-+			None
++                       None
                  self.spawn(linker + ld_args)
              except DistutilsExecError as msg:
                  raise LinkError(msg)
